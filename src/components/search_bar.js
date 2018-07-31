@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; // this pulls the Component property and saves it to a variable name Component
-
+// hi
 // first declare a new class with the name SearchBar
 // then give it access to all of the functionality that React.Component has
 class SearchBar extends Component {
