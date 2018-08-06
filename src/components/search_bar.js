@@ -14,7 +14,7 @@ class SearchBar extends Component {
     // onChange is a React property that we pass the event handler to
     // this.setState will update 'this.state'
     return (
-      <div>
+      <div className="search-bar">
         <input
           value={this.state.term}
           onChange={ event => this.setState({ term: event.target.value }) } />
